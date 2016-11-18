@@ -1,0 +1,27 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+  <!-- Tasks Tab -->
+  <ion-tab title="Início" icon-off="ion-ios7-home-outline" icon-on="ion-ios7-home" href="#/tab/steps">
+    <ion-nav-view name="tab-steps"></ion-nav-view>
+  </ion-tab>
+
+<!--   <ion-tab title="Active Tasks" icon-off="ion-ios-pulse-strong" icon-on="ion-ios-pulse-strong" href="#/tab/activetasks">
+    <ion-nav-view name="tab-activetasks"></ion-nav-view>
+  </ion-tab> -->
+
+  <!-- Results Tab -->
+  <ion-tab title="Resultados" icon-off="ion-ios7-paper-outline" icon-on="ion-ios7-paper-outline" href="#/tab/results">
+    <ion-nav-view name="tab-results"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Consent PDF Tab -->
+<!--   <ion-tab title="Consent PDF" icon-off="ion-document" icon-on="ion-document" href="#/tab/document">
+    <ion-nav-view name="tab-document"></ion-nav-view>
+  </ion-tab> -->
+
+</ion-tabs>
